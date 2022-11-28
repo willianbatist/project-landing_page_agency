@@ -1,12 +1,12 @@
-import { useState } from "react";
-import "../styles/Header.css";
+// import { useState } from "react";
+import { HeaderMenu } from './header.style';
 // import { MenuMobile } from "./menuMobile/MenuMobile";
 
 export default function Header() {
   // const [menuIsVisible, setMenuIsVisible] = useState(true);
 
   return (
-    <header className="header">
+    <HeaderMenu>
       {/* <MenuMobile
         menuIsVisible={menuIsVisible}
         setMenuIsVisible={setMenuIsVisible}
@@ -36,6 +36,6 @@ export default function Header() {
           </li>
         </ul>
       </nav>
-    </header>
+    </HeaderMenu>
   );
 }

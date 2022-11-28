@@ -1,4 +1,4 @@
-import Header from "../../components/Header";
+import Header from "../../components/header/Header";
 import { HomeContainer } from './home.style';
 
 export default function Home() {

@@ -1,3 +1,6 @@
+import styled from "styled-components";
+
+export const HeaderMenu = styled.header`
 @media(max-width: 900px) {
   .nav-list {
     display: none !important;
@@ -51,3 +54,4 @@ a {
 a:hover {
   opacity: 0.7;
 }
+`;
