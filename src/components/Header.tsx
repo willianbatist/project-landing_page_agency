@@ -1,16 +1,16 @@
 import { useState } from "react";
 import "../styles/Header.css";
-import { MenuMobile } from "./menuMobile/MenuMobile";
+// import { MenuMobile } from "./menuMobile/MenuMobile";
 
 export default function Header() {
-  const [menuIsVisible, setMenuIsVisible] = useState(true);
+  // const [menuIsVisible, setMenuIsVisible] = useState(true);
 
   return (
     <header className="header">
-      <MenuMobile
+      {/* <MenuMobile
         menuIsVisible={menuIsVisible}
         setMenuIsVisible={setMenuIsVisible}
-      />
+      /> */}
       <nav>
         <p className="logo">
           <span>mk</span>digital
