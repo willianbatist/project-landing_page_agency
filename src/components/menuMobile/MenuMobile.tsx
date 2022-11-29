@@ -1,7 +1,12 @@
 import { Container } from "./menuMobile.styles";
 import { IoClose } from "react-icons/io5";
 
-export function MenuMobile({ menuIsVisible, setMenuIsVisible }) {
+interface Props {
+  menuIsVisible: boolean;
+  setMenuIsVisible: React.Dispatch<React.SetStateAction<boolean>>;
+}
+
+export function MenuMobile({ menuIsVisible, setMenuIsVisible }: Props) {
 
   return(
     <Container isVisible={menuIsVisible}>
