@@ -1,9 +1,9 @@
-import { Container } from './styles';
+import { Container } from "./styles";
 import { IoClose } from "react-icons/io5";
 
 // export function MenuMobile({ menuIsVisible, setMenuIsVisible }) {
 //   console.log(menuIsVisible, setMenuIsVisible);
-  
+
 //   return(
 //     <Container>
 //       <IoClose size={45}/>

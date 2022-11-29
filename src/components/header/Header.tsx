@@ -1,5 +1,5 @@
 // import { useState } from "react";
-import { HeaderMenu } from './header.style';
+import { HeaderMenu } from "./header.style";
 // import { MenuMobile } from "./menuMobile/MenuMobile";
 
 export default function Header() {
