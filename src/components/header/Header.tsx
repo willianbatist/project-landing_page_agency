@@ -1,42 +1,43 @@
-// import { useState } from "react";
-import { HeaderMenu } from "./header.style";
-// import { MenuMobile } from "./menuMobile/MenuMobile";
+import { useState } from "react";
+import * as S from "./header.style";
+import { MenuMobile } from "../menuMobile/MenuMobile";
 import { RiMenu3Fill } from 'react-icons/ri';
+
 export default function Header() {
-  // const [menuIsVisible, setMenuIsVisible] = useState(true);
+  const [menuIsVisible, setMenuIsVisible] = useState(false);
 
   return (
-    <HeaderMenu>
-      {/* <MenuMobile
+    <S.HeaderMenu>
+      <MenuMobile
         menuIsVisible={menuIsVisible}
         setMenuIsVisible={setMenuIsVisible}
-      /> */}
-      <nav>
+      />
+      <S.NavList>
         <p className="logo">
           <span>mk</span>digital
         </p>
         <ul className="nav-list">
           <li>
-            <a href="/">HOME</a>
+            <a className="a" href="/">HOME</a>
           </li>
           <li>
-            <a href="a">PRODUCTS</a>
+            <a className="a" href="a">PRODUCTS</a>
           </li>
           <li>
-            <a href="a">SERVICE</a>
+            <a className="a" href="a">SERVICE</a>
           </li>
           <li>
-            <a href="a">WORK</a>
+            <a className="a" href="a">WORK</a>
           </li>
           <li>
-            <a href="a">PRICING</a>
+            <a className="a" href="a">PRICING</a>
           </li>
           <li>
-            <a href="a">CONTACT</a>
+            <a  className="a" href="a">CONTACT</a>
           </li>
         </ul>
-        <RiMenu3Fill className="mobile"/>
-      </nav>
-    </HeaderMenu>
+        <RiMenu3Fill onClick={ () =>  setMenuIsVisible(true)} className="mobile"/>
+      </S.NavList>
+    </S.HeaderMenu>
   );
 }

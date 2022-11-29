@@ -1,34 +1,19 @@
-import { Container } from "./styles";
+import { Container } from "./menuMobile.styles";
 import { IoClose } from "react-icons/io5";
 
-// export function MenuMobile({ menuIsVisible, setMenuIsVisible }) {
-//   console.log(menuIsVisible, setMenuIsVisible);
+export function MenuMobile({ menuIsVisible, setMenuIsVisible }) {
 
-//   return(
-//     <Container>
-//       <IoClose size={45}/>
-//       <nav>
-//         <ul className="">
-//           <li>
-//             <a href="/">HOME</a>
-//           </li>
-//           <li>
-//             <a href="a">PRODUCTS</a>
-//           </li>
-//           <li>
-//             <a href="a">SERVICE</a>
-//           </li>
-//           <li>
-//             <a href="a">WORK</a>
-//           </li>
-//           <li>
-//             <a href="a">PRICING</a>
-//           </li>
-//           <li>
-//             <a href="a">CONTACT</a>
-//           </li>
-//         </ul>
-//       </nav>
-//     </Container>
-//   )
-// }
+  return(
+    <Container isVisible={menuIsVisible}>
+      <IoClose size={45} onClick={() => setMenuIsVisible(false)}/>
+      <nav>
+        <a href="/">HOME</a>
+        <a href="a">PRODUCTS</a>
+        <a href="a">SERVICE</a>
+        <a href="a">WORK</a>
+        <a href="a">PRICING</a>
+        <a href="a">CONTACT</a>
+      </nav>
+    </Container>
+  )
+}

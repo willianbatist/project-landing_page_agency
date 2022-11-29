@@ -26,15 +26,6 @@ span {
   color: aqua;
 }
 
-nav {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  font-family: system-ui, -apple-system, Helvetica, Arial, sans-serif;
-  background: #23232e;
-  height: 12vh;
-}
-
 .nav-list {
   list-style: none;
   display: flex;
@@ -45,13 +36,26 @@ nav {
   margin-left: 32px;
 }
 
-a {
+.a {
   color: #fff;
   text-decoration: none;
   transition: 0.3s;
 }
 
-a:hover {
+.a:hover {
   opacity: 0.7;
+}
+`;
+
+export const NavList = styled.nav`
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-family: system-ui, -apple-system, Helvetica, Arial, sans-serif;
+  background: #23232e;
+  height: 12vh;
+
+  @media(max-width: 900px) {
+    justify-content: space-between !important;
 }
 `;

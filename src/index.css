@@ -7,6 +7,10 @@
   display: none;
 }
 
+a {
+  text-decoration: none;
+}
+
 @media(max-width: 900px) {
   .mobile {
     display: block !important;
