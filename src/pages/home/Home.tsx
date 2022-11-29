@@ -4,9 +4,14 @@ import imgOffice from '../../img/marketing-office.jpg'
 
 export default function Home() {
   return (
-    <HomeContainer>
+    <HomeContainer className="main">
       <Header />
-      <img alt="Pessoas fazendo reunião numa mesa" src={ imgOffice } />
+      <div>
+        <img
+          width="100%"
+          alt="Pessoas fazendo reunião numa mesa"
+          src={imgOffice} />
+      </div>
       <h1>Digital Product Agency.</h1>
       <p>Look no further. You came to the right ... place</p>
     </HomeContainer>

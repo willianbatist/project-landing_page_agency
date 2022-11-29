@@ -1,6 +1,10 @@
 import styled from "styled-components";
 
 export const HeaderMenu = styled.header`
+  position: fixed;
+  background: transparent;
+  width: 100vw;
+
 @media(max-width: 900px) {
   .nav-list {
     display: none !important;
@@ -47,12 +51,13 @@ span {
 }
 `;
 
+
+
 export const NavList = styled.nav`
   display: flex;
   justify-content: space-around;
   align-items: center;
   font-family: system-ui, -apple-system, Helvetica, Arial, sans-serif;
-  background: #23232e;
   height: 12vh;
 
   @media(max-width: 900px) {
