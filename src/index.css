@@ -2,3 +2,15 @@
   margin: 0;
   padding: 0;
 }
+
+.mobile {
+  display: none;
+}
+
+@media(max-width: 900px) {
+  .mobile {
+    display: block !important;
+    font-size: 25px;
+    color: white;
+  }
+}

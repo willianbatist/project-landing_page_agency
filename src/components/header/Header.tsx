@@ -1,7 +1,7 @@
 // import { useState } from "react";
 import { HeaderMenu } from "./header.style";
 // import { MenuMobile } from "./menuMobile/MenuMobile";
-
+import { RiMenu3Fill } from 'react-icons/ri';
 export default function Header() {
   // const [menuIsVisible, setMenuIsVisible] = useState(true);
 
@@ -35,6 +35,7 @@ export default function Header() {
             <a href="a">CONTACT</a>
           </li>
         </ul>
+        <RiMenu3Fill className="mobile"/>
       </nav>
     </HeaderMenu>
   );
