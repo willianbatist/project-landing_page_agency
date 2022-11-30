@@ -1,6 +1,7 @@
 import Header from "../../components/header/Header";
+import Products from "../../components/products/Products";
 import { HomeContainer } from "./home.style";
-import imgOffice from '../../img/marketing-office.jpg'
+import imgOffice from "../../img/marketing-office.jpg";
 
 export default function Home() {
   return (
@@ -10,10 +11,12 @@ export default function Home() {
         <img
           width="100%"
           alt="Pessoas fazendo reunião numa mesa"
-          src={imgOffice} />
+          src={imgOffice}
+        />
       </div>
       <h1>Digital Product Agency.</h1>
       <p>Look no further. You came to the right ... place</p>
+      <Products/>
     </HomeContainer>
   );
 }

@@ -9,16 +9,14 @@ export default function Header() {
 
   useEffect(() => {
     function positionScroll() {
-      if(window.scrollY > 10) {
-        setHeaderIsVisible(true)
+      if (window.scrollY > 10) {
+        setHeaderIsVisible(true);
+      } else {
+        setHeaderIsVisible(false);
       }
-      else {
-        setHeaderIsVisible(false)
-      }
-
     }
-    window.addEventListener('scroll', positionScroll)
-  }, [])
+    window.addEventListener("scroll", positionScroll);
+  }, []);
 
   return (
     <S.HeaderMenu isVisible={headerIsVisible}>
