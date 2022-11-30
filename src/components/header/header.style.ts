@@ -8,6 +8,7 @@ export const HeaderMenu = styled.header<Props>`
   position: fixed;
   background: transparent;
   width: 100vw;
+  border-bottom: 0.2px solid white;
 
 @media(max-width: 900px) {
   .nav-list {
