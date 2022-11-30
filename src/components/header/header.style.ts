@@ -1,6 +1,10 @@
-import styled from "styled-components";
+import styled, { css } from "styled-components";
 
-export const HeaderMenu = styled.header`
+interface Props {
+  isVisible: boolean;
+}
+
+export const HeaderMenu = styled.header<Props>`
   position: fixed;
   background: transparent;
   width: 100vw;
@@ -49,6 +53,16 @@ span {
 .a:hover {
   opacity: 0.7;
 }
+
+${({ isVisible }) => isVisible && css`
+    background-color: white;
+    .a {
+      color: #515769;
+    }
+    .logo {
+      color: #515769;
+    }
+  `}
 `;
 
 
