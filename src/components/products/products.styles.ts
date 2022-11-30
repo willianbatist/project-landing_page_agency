@@ -14,3 +14,6 @@ export const Products = styled.section`
     font-weight: 400;
   }
 `;
+
+export const ProductCard = styled.section`
+`;
