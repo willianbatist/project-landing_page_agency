@@ -57,10 +57,8 @@ span {
   font-weight: 600;
   transition: 0.3s;
   line-height: 55px;
-  padding: 20px;
+  padding: 2%;
   text-transform: uppercase;
-  transition-duration: .3s;
-  transition-property: all;
 }
 
 .a:hover {
