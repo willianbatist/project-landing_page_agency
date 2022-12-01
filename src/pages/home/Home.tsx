@@ -1,11 +1,11 @@
 import Header from "../../components/header/Header";
 import Products from "../../components/products/Products";
-import { HomeContainer } from "./home.style";
+import * as S from "./home.style";
 import imgOffice from "../../img/marketing-office.jpg";
 
 export default function Home() {
   return (
-    <HomeContainer className="main">
+    <S.HomeContainer className="main">
       <Header />
       <div>
         <img
@@ -16,7 +16,7 @@ export default function Home() {
       </div>
       <h1>Digital Product Agency.</h1>
       <p>Look no further. You came to the right ... place</p>
-      <Products/>
-    </HomeContainer>
+      <Products />
+    </S.HomeContainer>
   );
 }
