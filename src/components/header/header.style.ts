@@ -8,8 +8,11 @@ export const HeaderMenu = styled.header<Props>`
   position: fixed;
   background: transparent;
   width: 100vw;
-  border-bottom: 0.2px solid white;
+  border-bottom: 1px solid rgba(255,255,255,.2);
   z-index: 2;
+  transition-duration: .3s;
+  transition-property: all;
+  transition-timing-function: cubic-bezier(.7,1,.7,1);
 
 @media(max-width: 900px) {
   .nav-list {
