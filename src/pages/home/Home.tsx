@@ -11,13 +11,14 @@ export default function Home() {
   return (
     <S.HomeContainer>
       <Header />
-      <div>
+      <div className="divImgBackgroud">
         <img
+          className="imgBackgroud"
           width="100%"
           alt="Pessoas fazendo reunião numa mesa"
           src={imgOffice}
         />
-        <h1>Digital Product Agency.</h1>
+        <h1 className="titleHome">Digital Product Agency.</h1>
         <p>Look no further. You came to the right ... place</p>
       </div>
       <Products />

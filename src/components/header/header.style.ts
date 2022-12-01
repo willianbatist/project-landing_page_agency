@@ -9,6 +9,7 @@ export const HeaderMenu = styled.header<Props>`
   background: transparent;
   width: 100vw;
   border-bottom: 0.2px solid white;
+  z-index: 2;
 
 @media(max-width: 900px) {
   .nav-list {
