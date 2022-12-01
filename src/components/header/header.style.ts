@@ -30,6 +30,7 @@ export const HeaderMenu = styled.header<Props>`
 
 .logo {
   font-size: 24px;
+  font-weight: 600;
   text-transform: uppercase;
   letter-spacing: 4px;
   color: white;
