@@ -1,6 +1,7 @@
 import Header from "../../components/header/Header";
 import Products from "../../components/products/Products";
 import Services from "../../components/service/Services";
+import Pricing from "../../components/pricing/Pricing";
 import * as S from "./home.style";
 import imgOffice from "../../img/marketing-office.jpg";
 import desktop1 from "../../img/desktop1.jpg";
@@ -31,8 +32,14 @@ export default function Home() {
       <Services />
       <div className="divMidPage">
         <h2>Displaying the Result</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo.</p>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+          aliquip ex ea commodo.
+        </p>
       </div>
+      <Pricing/>
     </S.HomeContainer>
   );
 }
