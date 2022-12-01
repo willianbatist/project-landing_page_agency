@@ -9,7 +9,7 @@ import desktop2 from "../../img/desktop2.jpg";
 
 export default function Home() {
   return (
-    <S.HomeContainer className="main">
+    <S.HomeContainer>
       <Header />
       <div>
         <img
@@ -17,9 +17,9 @@ export default function Home() {
           alt="Pessoas fazendo reunião numa mesa"
           src={imgOffice}
         />
+        <h1>Digital Product Agency.</h1>
+        <p>Look no further. You came to the right ... place</p>
       </div>
-      <h1>Digital Product Agency.</h1>
-      <p>Look no further. You came to the right ... place</p>
       <Products />
       <S.Section>
         <div>
@@ -39,7 +39,7 @@ export default function Home() {
           aliquip ex ea commodo.
         </p>
       </div>
-      <Pricing/>
+      <Pricing />
     </S.HomeContainer>
   );
 }
