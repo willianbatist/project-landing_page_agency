@@ -59,3 +59,33 @@ export const apiServices = [
     description: "Lorem ipsum dolor amet consectetur ut consequat siad esqudiat dolor",
   },
 ];
+
+export const apiPricing = [
+  {
+    id: 1,
+    name: "Starter Kit",
+    price: "49",
+    description: "Lorem ipsum dolor amet consectetur ut consequat siad esqudiat dolor",
+    item1: "Basic Features",
+    item2: "Up to 5 products",
+    item3: "50 Users Panels",
+  },
+  {
+    id: 2,
+    name: "Professional",
+    price: "149",
+    description: "Lorem ipsum dolor amet consectetur ut consequat siad esqudiat dolor",
+    item1: "Basic Features",
+    item2: "Up to 5 products",
+    item3: "50 Users Panels",
+  },
+  {
+    id: 3,
+    name: "Advanced",
+    price: "249",
+    description: "Lorem ipsum dolor amet consectetur ut consequat siad esqudiat dolor",
+    item1: "Basic Features",
+    item2: "Up to 5 products",
+    item3: "50 Users Panels",
+  }
+];
