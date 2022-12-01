@@ -26,3 +26,36 @@ export const apiProducts = [
     description: "Lorem ipsum dolor sit amet consectetur adipiscing elit sed tempor incdidunt ut laboret dolor magna ut consequat siad esqudiat dolor",
   },
 ];
+
+export const apiServices = [
+  {
+    id: 1,
+    name:"Art Of Coding",
+    description: "Lorem ipsum dolor amet consectetur ut consequat siad esqudiat dolor",
+  },
+  {
+    id: 2,
+    name:"Responsive Design",
+    description: "Lorem ipsum dolor amet consectetur ut consequat siad esqudiat dolor",
+  },
+  {
+    id: 3,
+    name:"Feature Reach",
+    description: "Lorem ipsum dolor amet consectetur ut consequat siad esqudiat dolor",
+  },
+  {
+    id: 4,
+    name:"Useful Documentation",
+    description: "Lorem ipsum dolor amet consectetur ut consequat siad esqudiat dolor",
+  },
+  {
+    id: 5,
+    name:"Fast Delivery",
+    description: "Lorem ipsum dolor amet consectetur ut consequat siad esqudiat dolor",
+  },
+  {
+    id: 6,
+    name:"Free Plugins",
+    description: "Lorem ipsum dolor amet consectetur ut consequat siad esqudiat dolor",
+  },
+];

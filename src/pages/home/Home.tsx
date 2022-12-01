@@ -24,7 +24,7 @@ export default function Home() {
           <img alt="imagem de um computador ligado" src={desktop1}/>
         </div>
         <div>
-        <img alt="imagem de um computador ligado" src={desktop2}/>
+          <img alt="imagem de um computador ligado" src={desktop2}/>
         </div>
       </S.Section>
     </S.HomeContainer>
