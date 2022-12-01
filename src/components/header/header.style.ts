@@ -50,9 +50,17 @@ span {
 }
 
 .a {
+  font-family: Hind,sans-serif;
   color: #fff;
   text-decoration: none;
+  font-size: 13px;
+  font-weight: 600;
   transition: 0.3s;
+  line-height: 55px;
+  padding: 20px;
+  text-transform: uppercase;
+  transition-duration: .3s;
+  transition-property: all;
 }
 
 .a:hover {
