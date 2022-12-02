@@ -26,6 +26,14 @@ export const HeaderMenu = styled.header<Props>`
   .logo {
     margin-left: 2% !important;
   }
+
+  .mobile {
+    display: block !important;
+    font-size: 30px;
+    font-weight: 800;
+    color: white;
+    margin-right: 1em;
+  }
 }
 
 .logo {
@@ -77,6 +85,9 @@ ${({ isVisible }) => isVisible && css`
     .logo {
       color: #515769;
     }
+    .mobile {
+      color: #515769;
+    }
   `}
 `;
 
@@ -89,7 +100,7 @@ export const NavList = styled.nav`
   font-family: system-ui, -apple-system, Helvetica, Arial, sans-serif;
   height: 12vh;
 
-  @media(max-width: 900px) {
+  @media(max-width: 930px) {
     justify-content: space-between !important;
 }
 `;
