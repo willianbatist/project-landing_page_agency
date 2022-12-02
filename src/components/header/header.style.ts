@@ -63,7 +63,7 @@ span {
 }
 
 .a:hover {
-  opacity: 0.7;
+  color: aqua;
 }
 
 ${({ isVisible }) => isVisible && css`

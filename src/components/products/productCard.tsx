@@ -18,7 +18,7 @@ export default function ProductCard({
   return (
     <S.ProductCard key={id}>
       <div>
-        <img alt={name} src={img} />
+        <img className="apagarIsso" alt={name} src={img} />
       </div>
       <h4>
         <a href="#">{name}</a>

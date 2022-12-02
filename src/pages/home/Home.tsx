@@ -3,7 +3,6 @@ import Products from "../../components/products/Products";
 import Services from "../../components/service/Services";
 import Pricing from "../../components/pricing/Pricing";
 import * as S from "./home.style";
-import imgOffice from "../../img/marketing-office.jpg";
 import desktop1 from "../../img/desktop1.jpg";
 import desktop2 from "../../img/desktop2.jpg";
 
@@ -12,12 +11,6 @@ export default function Home() {
     <S.HomeContainer>
       <Header />
       <div className="divImgBackgroud">
-        <img
-          className="imgBackgroud"
-          width="100%"
-          alt="Pessoas fazendo reunião numa mesa"
-          src={imgOffice}
-        />
         <div className="divTitleHome">
           <h1 className="titleHome">Digital Product Agency.</h1>
           <p className="pHome">Look no further. You came to the right ... place</p>
@@ -26,10 +19,10 @@ export default function Home() {
       <Products />
       <S.Section>
         <div>
-          <img alt="imagem de um computador ligado" src={desktop1} />
+          <img className="apagarIsso" alt="imagem de um computador ligado" src={desktop1} />
         </div>
         <div>
-          <img alt="imagem de um computador ligado" src={desktop2} />
+          <img className="apagarIsso" alt="imagem de um computador ligado" src={desktop2} />
         </div>
       </S.Section>
       <Services />
