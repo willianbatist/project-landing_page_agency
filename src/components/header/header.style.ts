@@ -60,16 +60,19 @@ span {
   line-height: 55px;
   padding: 2%;
   text-transform: uppercase;
+  text-shadow: 3px 3px 5px rgba(0,0,0,0.39);
 }
 
 .a:hover {
   color: aqua;
+  text-shadow: none;
 }
 
 ${({ isVisible }) => isVisible && css`
     background-color: white;
     .a {
       color: #515769;
+      text-shadow: none;
     }
     .logo {
       color: #515769;
