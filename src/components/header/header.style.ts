@@ -14,7 +14,7 @@ export const HeaderMenu = styled.header<Props>`
   transition-property: all;
   transition-timing-function: cubic-bezier(.7,1,.7,1);
 
-@media(max-width: 900px) {
+@media(max-width: 930px) {
   .nav-list {
     display: none !important;
   }
