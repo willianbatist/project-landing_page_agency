@@ -15,6 +15,7 @@ export const HeaderMenu = styled.header<Props>`
   transition-timing-function: cubic-bezier(.7,1,.7,1);
 
 @media(max-width: 930px) {
+  background: white;
   .nav-list {
     display: none !important;
   }
@@ -25,13 +26,14 @@ export const HeaderMenu = styled.header<Props>`
 
   .logo {
     margin-left: 2% !important;
+    color: #515769 !important;
   }
 
   .mobile {
     display: block !important;
     font-size: 30px;
     font-weight: 800;
-    color: white;
+    color: #515769;
     margin-right: 1em;
   }
 }
@@ -83,9 +85,6 @@ ${({ isVisible }) => isVisible && css`
       text-shadow: none;
     }
     .logo {
-      color: #515769;
-    }
-    .mobile {
       color: #515769;
     }
   `}
