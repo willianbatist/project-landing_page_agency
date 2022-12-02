@@ -18,8 +18,10 @@ export default function Home() {
           alt="Pessoas fazendo reunião numa mesa"
           src={imgOffice}
         />
-        <h1 className="titleHome">Digital Product Agency.</h1>
-        <p>Look no further. You came to the right ... place</p>
+        <div className="divTitleHome">
+          <h1 className="titleHome">Digital Product Agency.</h1>
+          <p className="pHome">Look no further. You came to the right ... place</p>
+        </div>
       </div>
       <Products />
       <S.Section>
