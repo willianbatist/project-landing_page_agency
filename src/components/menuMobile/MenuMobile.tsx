@@ -9,14 +9,14 @@ interface Props {
 export function MenuMobile({ menuIsVisible, setMenuIsVisible }: Props) {
   return (
     <Container isVisible={menuIsVisible}>
-      <IoClose size={45} onClick={() => setMenuIsVisible(false)} />
-      <nav>
-        <a href="/">HOME</a>
-        <a href="a">PRODUCTS</a>
-        <a href="a">SERVICE</a>
-        <a href="a">WORK</a>
-        <a href="a">PRICING</a>
-        <a href="a">CONTACT</a>
+      <IoClose className="mobIoClose" size={45} onClick={() => setMenuIsVisible(false)} />
+      <nav className="mobNav">
+        <a className="mobA" href="/">HOME</a>
+        <a className="mobA" href="a">PRODUCTS</a>
+        <a className="mobA" href="a">SERVICE</a>
+        <a className="mobA" href="a">WORK</a>
+        <a className="mobA" href="a">PRICING</a>
+        <a className="mobA" href="a">CONTACT</a>
       </nav>
     </Container>
   );
