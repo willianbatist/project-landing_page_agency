@@ -1,9 +1,8 @@
 import styled from "styled-components";
 
 export const Products = styled.section`
-  border: 2px solid black;
   width: 100%;
-  h2 {
+  .h2SProducts {
     font-size: 30px;
     font-weight: 700;
     color: #515769;
@@ -11,10 +10,11 @@ export const Products = styled.section`
     margin: 0 0 15px;
   }
 
-  p {
+  .pSProducts {
     font-size: 15px;
     font-weight: 400;
     width: 60%;
+    color: #a6a7aa;
   }
 
   .divTextProducts {
@@ -22,8 +22,8 @@ export const Products = styled.section`
     flex-direction: column;
     text-align: center;
     align-items: center;
-    border: 2px solid red;
-    padding: 2em;
+    margin-top: 80px;
+    padding: 2.5em;
   }
 
   .divProductsCard {
@@ -34,12 +34,16 @@ export const Products = styled.section`
   .divProductsCard {
     display: block;
   }
+
+  .pSProducts {
+    width: 90%;
+  }
 }
 `;
 
 export const ProductCard = styled.section`
-  border: 2px solid orange;
   padding: 1em;
+  margin-top: 10px;
   img {
     max-width: 100%;
     height: auto;
@@ -66,5 +70,23 @@ export const ProductCard = styled.section`
     font-size: 14px;
     font-weight: 400;
     color: #bfc1c7;
+  }
+
+  p {
+    font-size: 15px;
+    font-weight: 400;
+    color: #a6a7aa;
+    margin-bottom: 15px;
+  }
+
+  .readMore {
+    font-size: 13px;
+    font-weight: 600;
+    color: #81848f;
+    line-height: 1.42857143;
+  }
+
+  .readMore:hover {
+    color: #515769;
   }
 `;

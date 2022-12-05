@@ -6,8 +6,8 @@ export default function Products() {
   return (
     <S.Products>
       <div className="divTextProducts">
-        <h2>Latest Products</h2>
-        <p>
+        <h2 className="h2SProducts">Latest Products</h2>
+        <p className="pSProducts">
           Lorem ipsum dolor sit amet consectetur adipiscing elit sed tempor
           incididunt ut laboret dolore magna aliqua enim minim veniam exercitation
         </p>
