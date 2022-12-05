@@ -23,7 +23,27 @@ export const ServiceCard = styled.div`
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin: 2.5px;
+  margin: 10px;
+  box-shadow: 8px 7px 13px -7px rgba(0,0,0,0.75);
+  -webkit-box-shadow: 8px 7px 13px -7px rgba(0,0,0,0.75);
+  -moz-box-shadow: 8px 7px 13px -7px rgba(0,0,0,0.75);
+
+  &:hover {
+    transform: translate3d(0,0,0);
+    transition-duration: .5s;
+    transition-property: all;
+    box-shadow: none;
+    margin-top: -5px;
+    background-color: #17bed2;
+
+    h3 {
+      color: #fff;
+    }
+
+    p {
+      color: #fff;
+    }
+  }
 
   h3 {
     display: block;
