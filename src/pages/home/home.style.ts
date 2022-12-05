@@ -44,7 +44,35 @@ export const HomeContainer = styled.div`
 }
 `;
 
-export const Section = styled.section``;
+export const Section = styled.section`
+  display: flex;
+  margin-top: 100px;
+  img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+  }
+
+  .sSectionDiv1 {
+    padding-right: 4px;
+  }
+
+  .sSectionDiv2 {
+    padding-left: 4px;
+  }
+  
+  @media(max-width: 770px) {
+  display: block;
+  .sSectionDiv1 {
+    padding-right: 0px;
+  }
+
+  .sSectionDiv2 {
+    padding-left: 0px;
+    margin-top: 10px;
+  }
+}
+`;
 
 export const Div = styled.div`
 `;

@@ -18,11 +18,11 @@ export default function Home() {
       </div>
       <Products />
       <S.Section>
-        <div>
-          <img className="apagarIsso" alt="imagem de um computador ligado" src={desktop1} />
+        <div className="sSectionDiv1">
+          <img className="sSectionImg1" alt="imagem de um computador ligado" src={desktop1} />
         </div>
-        <div>
-          <img className="apagarIsso" alt="imagem de um computador ligado" src={desktop2} />
+        <div className="sSectionDiv2">
+          <img className="sSectionImg2" alt="imagem de um computador ligado" src={desktop2} />
         </div>
       </S.Section>
       <Services />
