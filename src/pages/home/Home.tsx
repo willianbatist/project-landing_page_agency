@@ -10,7 +10,7 @@ export default function Home() {
   return (
     <S.HomeContainer>
       <Header />
-      <div className="divImgBackgroud">
+      <div id="home" className="divImgBackgroud">
         <div className="divTitleHome">
           <h1 className="titleHome">Digital Product Agency.</h1>
           <p className="pHome">Look no further. You came to the right ... place</p>

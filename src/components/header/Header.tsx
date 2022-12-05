@@ -30,12 +30,12 @@ export default function Header() {
         </p>
         <ul className="nav-list">
           <li>
-            <a className="a" href="/">
+            <a className="a" href="#home">
               HOME
             </a>
           </li>
           <li>
-            <a className="a" href="a">
+            <a className="a" href="#products">
               PRODUCTS
             </a>
           </li>

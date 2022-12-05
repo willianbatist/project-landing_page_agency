@@ -4,7 +4,7 @@ import ProductCard from "./productCard";
 
 export default function Products() {
   return (
-    <S.Products>
+    <S.Products id="products">
       <div className="divTextProducts">
         <h2 className="h2SProducts">Latest Products</h2>
         <p className="pSProducts">
