@@ -47,9 +47,6 @@ export const ServiceCard = styled.div`
     line-height: 1.4;
     color: #a6a7aa;
     display: block;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
+    margin-left: 20px;
   }
 `;
