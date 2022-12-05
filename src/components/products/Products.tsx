@@ -12,16 +12,18 @@ export default function Products() {
           incididunt ut laboret dolore magna aliqua enim minim veniam exercitation
         </p>
       </div>
-      {apiProducts.map((e) => (
-        <ProductCard
-          key={e.id}
-          id={e.id}
-          img={e.img}
-          name={e.name}
-          tag={e.tag}
-          description={e.description}
-        />
-      ))}
+      <div className="divProductsCard">{
+        apiProducts.map((e) => (
+          <ProductCard
+            key={e.id}
+            id={e.id}
+            img={e.img}
+            name={e.name}
+            tag={e.tag}
+            description={e.description}
+          />
+        ))
+        }</div>
     </S.Products>
   );
 }
