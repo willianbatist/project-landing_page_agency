@@ -1,6 +1,8 @@
 import styled from "styled-components";
 
 export const Products = styled.section`
+  border: 2px solid black;
+  width: 100%;
   h2 {
     font-size: 30px;
     font-weight: 700;
@@ -12,6 +14,16 @@ export const Products = styled.section`
   p {
     font-size: 15px;
     font-weight: 400;
+    width: 60%;
+  }
+
+  .divTextProducts {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    border: 2px solid red;
+    padding: 2em;
   }
 `;
 

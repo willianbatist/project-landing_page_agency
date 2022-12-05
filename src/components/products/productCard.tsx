@@ -6,6 +6,7 @@ interface Props {
   name: string;
   tag: string;
   description: string;
+  key: number;
 }
 
 export default function ProductCard({
@@ -14,9 +15,10 @@ export default function ProductCard({
   name,
   tag,
   description,
+  key,
 }: Props) {
   return (
-    <S.ProductCard key={id}>
+    <S.ProductCard key={key}>
       <div>
         <img className="apagarIsso" alt={name} src={img} />
       </div>
