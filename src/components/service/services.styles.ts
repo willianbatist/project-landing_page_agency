@@ -30,7 +30,7 @@ export const ServiceCard = styled.div`
 
   &:hover {
     transform: translate3d(0,0,0);
-    transition-duration: .5s;
+    transition-duration: .7s;
     transition-property: all;
     box-shadow: none;
     margin-top: -5px;
