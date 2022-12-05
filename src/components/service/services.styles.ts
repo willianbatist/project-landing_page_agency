@@ -3,14 +3,12 @@ import styled from "styled-components";
 export const Services = styled.div`
   display: flex;
   justify-content: space-around;
-  border: 2px solid black;
   background-color: #fafafa !important;
 
   .divApiServices {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    border: 2px solid orange;
     padding-top: 100px;
     padding-bottom: 100px;
     max-width: 1000px;
@@ -18,10 +16,9 @@ export const Services = styled.div`
 `;
 
 export const ServiceCard = styled.div`
-  border: 2px solid red;
   width: 300px;
   height: 300px;
-  background-color: aqua;
+  background-color: white;
   display: flex;
   flex-direction: column;
   justify-content: center;
