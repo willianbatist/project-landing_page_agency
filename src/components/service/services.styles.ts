@@ -13,7 +13,7 @@ export const Services = styled.div`
     border: 2px solid orange;
     padding-top: 100px;
     padding-bottom: 100px;
-    width: 90%;
+    max-width: 1000px;
   }
 `;
 
