@@ -9,11 +9,12 @@ export default function Products() {
         <h2 className="h2SProducts">Latest Products</h2>
         <p className="pSProducts">
           Lorem ipsum dolor sit amet consectetur adipiscing elit sed tempor
-          incididunt ut laboret dolore magna aliqua enim minim veniam exercitation
+          incididunt ut laboret dolore magna aliqua enim minim veniam
+          exercitation
         </p>
       </div>
-      <div className="divProductsCard">{
-        apiProducts.map((e) => (
+      <div className="divProductsCard">
+        {apiProducts.map((e) => (
           <ProductCard
             key={e.id}
             id={e.id}
@@ -22,8 +23,8 @@ export default function Products() {
             tag={e.tag}
             description={e.description}
           />
-        ))
-        }</div>
+        ))}
+      </div>
     </S.Products>
   );
 }

@@ -14,16 +14,26 @@ export default function Home() {
       <div id="home" className="divImgBackgroud">
         <div className="divTitleHome">
           <h1 className="titleHome">Digital Product Agency.</h1>
-          <p className="pHome">Look no further. You came to the right ... place</p>
+          <p className="pHome">
+            Look no further. You came to the right ... place
+          </p>
         </div>
       </div>
       <Products />
       <S.Section>
         <div className="sSectionDiv1">
-          <img className="sSectionImg1" alt="imagem de um computador ligado" src={desktop1} />
+          <img
+            className="sSectionImg1"
+            alt="imagem de um computador ligado"
+            src={desktop1}
+          />
         </div>
         <div className="sSectionDiv2">
-          <img className="sSectionImg2" alt="imagem de um computador ligado" src={desktop2} />
+          <img
+            className="sSectionImg2"
+            alt="imagem de um computador ligado"
+            src={desktop2}
+          />
         </div>
       </S.Section>
       <Services />
@@ -32,16 +42,16 @@ export default function Home() {
           <h2 className="h2MidPage">Displaying the Result</h2>
           <p className="pMidPage">
             Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-            minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
             aliquip ex ea commodo.
           </p>
         </div>
       </div>
       <Pricing />
-      <Contact/>
+      <Contact />
       <S.Footer>
-      <hr/>
+        <hr />
         <p>
           {`Desenvolvido por `}
           <span>MK DIGITAL</span>

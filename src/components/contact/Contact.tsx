@@ -4,27 +4,27 @@ import { MdEmail } from "react-icons/md";
 import { FaMapMarkerAlt } from "react-icons/fa";
 
 export default function Contact() {
-  return(
+  return (
     <S.Contact>
       <hr />
       <h3>Entre em contato conosco</h3>
       <div className="divContact">
         <div>
-          <AiFillPhone className="icon"/>
+          <AiFillPhone className="icon" />
           <p>
             <span>Ligue para:</span>
             {` (48)99999-9999`}
           </p>
         </div>
         <div>
-          <MdEmail className="icon"/>
+          <MdEmail className="icon" />
           <p>
             <span>Envie um email:</span>
             {` contato@mkdigital.com`}
           </p>
         </div>
         <div>
-          <FaMapMarkerAlt className="icon"/>
+          <FaMapMarkerAlt className="icon" />
           <p>
             <span>Endereço:</span>
             {` Rua Lorem Ipsum - 1314`}
