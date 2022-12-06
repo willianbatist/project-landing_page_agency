@@ -123,6 +123,7 @@ export const Div = styled.div`
 
 export const Footer = styled.footer`
   text-align: center;
+  background-color: #f1f1f1;
 
   p {
     padding: 10px;
@@ -131,7 +132,6 @@ export const Footer = styled.footer`
   }
 
   p span {
-    background-color: #f1f1f1;
     font-weight: 700;
   }
 `;
