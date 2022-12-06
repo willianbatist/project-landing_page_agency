@@ -2,6 +2,7 @@ import Header from "../../components/header/Header";
 import Products from "../../components/products/Products";
 import Services from "../../components/service/Services";
 import Pricing from "../../components/pricing/Pricing";
+import Contact from "../../components/contact/Contact";
 import * as S from "./home.style";
 import desktop1 from "../../img/desktop1.jpg";
 import desktop2 from "../../img/desktop2.jpg";
@@ -38,6 +39,7 @@ export default function Home() {
         </div>
       </div>
       <Pricing />
+      <Contact/>
     </S.HomeContainer>
   );
 }
