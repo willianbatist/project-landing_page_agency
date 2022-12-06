@@ -51,7 +51,6 @@ export default function Home() {
       <Pricing />
       <Contact />
       <S.Footer>
-        <hr />
         <p>
           {`Desenvolvido por `}
           <span>MK DIGITAL</span>
