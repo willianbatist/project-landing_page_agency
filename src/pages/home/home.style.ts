@@ -9,13 +9,15 @@ export const HomeContainer = styled.div`
   width: 100%;
   height: auto;
   background-size: cover;
-  padding: 250px 0 200px;
 }
 
 .divTitleHome {
   width: 100%;
+  height: 100%;
   z-index: 1;
   text-align: center;
+  background: rgba(81,87,105,.4);
+  padding: 250px 0 200px;
 }
 
 .imgBackgroud {
