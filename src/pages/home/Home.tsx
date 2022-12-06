@@ -27,13 +27,15 @@ export default function Home() {
       </S.Section>
       <Services />
       <div className="divMidPage">
-        <h2>Displaying the Result</h2>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-          aliquip ex ea commodo.
-        </p>
+        <div className="divMidPageText">
+          <h2 className="h2MidPage">Displaying the Result</h2>
+          <p className="pMidPage">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+            minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip ex ea commodo.
+          </p>
+        </div>
       </div>
       <Pricing />
     </S.HomeContainer>

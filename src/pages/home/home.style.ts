@@ -1,5 +1,6 @@
 import styled from "styled-components";
 import Img from "../../img/marketing-office.jpg";
+import ImgSmartphone from "../../img/smartphone.jpg";
 
 export const HomeContainer = styled.div`
 
@@ -41,6 +42,47 @@ export const HomeContainer = styled.div`
   margin-inline-end: 0px;
   color: white;
   text-shadow: 3px 3px 4px #000000;
+}
+
+.divMidPage {
+  display: flex;
+  position: relative;
+  z-index: 1;
+  background: url(${ImgSmartphone}) center center no-repeat fixed;
+  background-size: cover;
+  min-height: 100%;
+  height: 384px;
+}
+
+.divMidPageText {
+  position: absolute;
+  z-index: -1;
+  background: rgba(81,87,105,.4);
+  height: 100%;
+  text-align: center;
+}
+
+.h2MidPage {
+  font-size: 50px;
+  color: #fff;
+  font-weight: 700;
+  line-height: 1.4;
+  text-align: center;
+  margin-top: 100px;
+}
+
+.pMidPage {
+  font-size: 20px;
+  color: #fff;
+  opacity: .8;
+  font-weight: 400;
+  margin-top: 15px;
+}
+
+@media(max-width: 770px) {
+  .h2MidPage {
+    margin-top: 15px;
+  }
 }
 `;
 
