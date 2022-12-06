@@ -124,6 +124,7 @@ export const Div = styled.div`
 export const Footer = styled.footer`
   text-align: center;
   background-color: #f1f1f1;
+  margin-top: 10px;
 
   p {
     padding: 10px;
