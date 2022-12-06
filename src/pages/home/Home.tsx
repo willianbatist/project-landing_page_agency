@@ -40,6 +40,14 @@ export default function Home() {
       </div>
       <Pricing />
       <Contact/>
+      <S.Footer>
+      <hr/>
+        <p>
+          {`Desenvolvido por `}
+          <span>MK DIGITAL</span>
+          {` © 2022`}
+        </p>
+      </S.Footer>
     </S.HomeContainer>
   );
 }
