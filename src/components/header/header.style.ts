@@ -47,7 +47,7 @@ export const HeaderMenu = styled.header<Props>`
 }
 
 span {
-  color: aqua;
+  color: #17bed2;
 }
 
 .nav-list {
