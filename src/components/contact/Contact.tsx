@@ -13,7 +13,7 @@ export default function Contact() {
           <AiFillPhone className="icon" />
           <p>
             <span>Ligue para:</span>
-            {` (48)99999-9999`}
+            {` (48) 99999-9999`}
           </p>
         </div>
         <div>
