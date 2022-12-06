@@ -120,3 +120,18 @@ export const Section = styled.section`
 
 export const Div = styled.div`
 `;
+
+export const Footer = styled.footer`
+  text-align: center;
+
+  p {
+    padding: 10px;
+    color: #444;
+    font-size: 14px;
+  }
+
+  p span {
+    background-color: #f1f1f1;
+    font-weight: 700;
+  }
+`;
