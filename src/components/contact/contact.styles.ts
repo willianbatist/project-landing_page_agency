@@ -36,4 +36,18 @@ export const Contact = styled.section`
   .divContact div {
     text-align: center;
   }
+
+  @media(max-width: 770px) {
+  h3 {
+    font-size: 30px;
+  }
+
+  .divContact {
+    display: block;
+  }
+
+  .divContact div {
+    margin-top: 25px;
+  }
+}
 `;
