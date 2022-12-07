@@ -30,33 +30,33 @@ export const apiProducts = [
 export const apiServices = [
   {
     id: 1,
-    name:"Art Of Coding",
-    description: "Lorem ipsum dolor amet consectetur ut consequat siad esqudiat dolor",
+    name:"Fotos profissionais",
+    description: "Uma boa apresentação do seu produto faz a diferença.",
   },
   {
     id: 2,
-    name:"Responsive Design",
-    description: "Lorem ipsum dolor amet consectetur ut consequat siad esqudiat dolor",
+    name:"Desenvolvimento de site",
+    description: "Concentre as informações da sua empresa de forma profissional e atualizada.",
   },
   {
     id: 3,
-    name:"Feature Reach",
-    description: "Lorem ipsum dolor amet consectetur ut consequat siad esqudiat dolor",
+    name:"Relatórios mensais",
+    description: "Acompanhe seu investimento de forma precisa.",
   },
   {
     id: 4,
-    name:"Useful Documentation",
-    description: "Lorem ipsum dolor amet consectetur ut consequat siad esqudiat dolor",
+    name:"Planejamento estratégico",
+    description: "Um plano completo com objetivos e prazos para sua empresa crescer.",
   },
   {
     id: 5,
-    name:"Fast Delivery",
-    description: "Lorem ipsum dolor amet consectetur ut consequat siad esqudiat dolor",
+    name:"Edição de vídeos",
+    description: "O conteúdo em vídeo é produzido e editado por nós mesmos, diminuindo o custo e o prazo.",
   },
   {
     id: 6,
-    name:"Free Plugins",
-    description: "Lorem ipsum dolor amet consectetur ut consequat siad esqudiat dolor",
+    name:"Social Listening",
+    description: "Monitoramento das redes sociais com o SAC 3.0, para atender o seu cliente da melhor forma.",
   },
 ];
 
