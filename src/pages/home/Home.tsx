@@ -13,9 +13,9 @@ export default function Home() {
       <Header />
       <div id="home" className="divImgBackgroud">
         <div className="divTitleHome">
-          <h1 className="titleHome">Digital Product Agency.</h1>
+          <h1 className="titleHome">A sua agência digital</h1>
           <p className="pHome">
-            Look no further. You came to the right ... place
+            Levar sua empresa mais longe não é complicado.
           </p>
         </div>
       </div>
