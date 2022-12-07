@@ -5,17 +5,19 @@ import { apiPricing } from "../../services/services";
 export default function Pricing() {
   return (
     <S.Pricing id="pricing">
-      {apiPricing.map((e) => (
-        <PriceCard
-          id={e.id}
-          name={e.name}
-          price={e.price}
-          description={e.description}
-          item1={e.item1}
-          item2={e.item2}
-          item3={e.item3}
-        />
-      ))}
+      <div className="divApiPricing">
+        {apiPricing.map((e) => (
+          <PriceCard
+            id={e.id}
+            name={e.name}
+            price={e.price}
+            description={e.description}
+            item1={e.item1}
+            item2={e.item2}
+            item3={e.item3}
+          />
+        ))}
+      </div>
     </S.Pricing>
   );
 }
