@@ -49,6 +49,7 @@ export const PriceCard = styled.div`
   ul {
     margin-top: 25px;
     margin-bottom: 50px;
+    height: 200px;
     padding-left: 0;
     list-style: none;
   }
@@ -91,9 +92,12 @@ export const PriceCard = styled.div`
 
   p {
     font-size: 11px;
+    margin-top: 0px;
   }
   ul {
-    margin-bottom: 25px;
+    margin-top: 0px;
+    margin-bottom: -10px;
+    height: 80px;
   }
   ul li {
     font-size: 9px;
@@ -102,6 +106,7 @@ export const PriceCard = styled.div`
   a {
     font-size: 9px;
     padding: 9px 32px;
+    margin-top: 0px;
   }
 }
 `;
