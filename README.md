@@ -1,20 +1,21 @@
 ### Observação
 
-Este repositório contem o **Projeto Percentage Calculator** que reúne o aprendizado desenvolvido por _[Willian Alves Batista](https://www.linkedin.com/in/willian-alves-batista-60aa6a180/)_.
+Este repositório contem o **Projeto Landing Page Agency** que reúne o aprendizado desenvolvido por _[Willian Alves Batista](https://www.linkedin.com/in/willian-alves-batista-60aa6a180/)_.
 
-# Projeto Percentage Calculator
+# Projeto Landing Page Agency
 ### Resultado obtido:
-### Deploy do Projeto: [Percentage Calculator](https://percentage-calculator-will.netlify.app/)
+### Deploy do Projeto: [Projeto Landing Page Agency](https://percentage-calculator-will.netlify.app/)
 ![](./public/calc.gif)
 
 #### Habilidades que foram exigidas:
 
   - Logica de programação;
+  - Clean Code;
 
 #### Tecnologias utilizadas:
 
   - React;
-  - JavaScript;
+  - TypeScript;
   - HTML;
   - CSS;
   - Eslint;
