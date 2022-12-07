@@ -6,24 +6,24 @@ export const apiProducts = [
   {
     id: 1,
     img: example1,
-    name: "Workspace",
-    tag: "Management",
+    name: "Fotos do seu produto",
+    tag: "Imagem",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipiscing elit sed tempor incdidunt ut laboret dolor magna ut consequat siad esqudiat dolor",
+      "Uma boa apresentação é capaz de conquistar muito mais clientes.",
   },
   {
     id: 2,
     img: example2,
-    name: "Minimalism",
-    tag: "Developmeny",
-    description: "Lorem ipsum dolor sit amet consectetur adipiscing elit sed tempor incdidunt ut laboret dolor magna ut consequat siad esqudiat dolor",
+    name: "Consultoria",
+    tag: "Gerenciamento",
+    description: "Saber o que esperar daqui para frente é importante. Conte com nossa consultoria de negócios para alinhar as expectativas.",
   },
   {
     id: 3,
     img: example3,
-    name: "Cleant Style",
-    tag: "Design",
-    description: "Lorem ipsum dolor sit amet consectetur adipiscing elit sed tempor incdidunt ut laboret dolor magna ut consequat siad esqudiat dolor",
+    name: "Conteúdo",
+    tag: "Informação",
+    description: "Nosso time de redatores está pronto para falar de todos assuntos relevantes ao seu negócio com muita criatividade.",
   },
 ];
 
