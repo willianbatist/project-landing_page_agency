@@ -43,4 +43,7 @@ E depois
 
     npm start
 
+
+Pronto, basta acessar http://localhost:3000/
+
 ---
