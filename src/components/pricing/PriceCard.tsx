@@ -24,7 +24,7 @@ export default function PriceCard(Props: Props) {
         <li>{Props.item2}</li>
         <li>{Props.item3}</li>
       </ul>
-      <button type="button">CHOOSE</button>
+      <a>CHOOSE</a>
     </S.PriceCard>
   );
 }
