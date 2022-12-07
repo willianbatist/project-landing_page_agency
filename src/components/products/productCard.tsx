@@ -10,7 +10,6 @@ interface Props {
 }
 
 export default function ProductCard({
-  id,
   img,
   name,
   tag,

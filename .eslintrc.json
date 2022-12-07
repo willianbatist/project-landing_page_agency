@@ -8,6 +8,7 @@
     "prettier"
   ],
   "rules": {
+    "jsx-a11y/anchor-is-valid": "off",
     "react/jsx-key": "off",
     "no-undef":"off",
     "react/prop-types": "off",
