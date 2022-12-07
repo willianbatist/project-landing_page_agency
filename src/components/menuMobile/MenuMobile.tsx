@@ -14,16 +14,16 @@ export default function MenuMobile({ menuIsVisible }: Props) {
         <a className="mobA" href="#products">
           PRODUCTS
         </a>
-        <a className="mobA" href="a">
+        <a className="mobA" href="#service">
           SERVICE
         </a>
-        <a className="mobA" href="a">
+        <a className="mobA" href="#work">
           WORK
         </a>
-        <a className="mobA" href="a">
+        <a className="mobA" href="#pricing">
           PRICING
         </a>
-        <a className="mobA" href="a">
+        <a className="mobA" href="#contact">
           CONTACT
         </a>
       </nav>
