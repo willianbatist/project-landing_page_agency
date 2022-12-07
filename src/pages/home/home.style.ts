@@ -57,6 +57,7 @@ export const HomeContainer = styled.div`
 }
 
 .divMidPageText {
+  width: 100%;
   position: absolute;
   z-index: -1;
   background: rgba(81,87,105,.4);
@@ -82,8 +83,13 @@ export const HomeContainer = styled.div`
 }
 
 @media(max-width: 770px) {
+  .divMidPage {
+    justify-content: center;
+  }
+
   .h2MidPage {
     margin-top: 15px;
+    font-size: 35px;
   }
 }
 `;
