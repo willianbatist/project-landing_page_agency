@@ -2,28 +2,29 @@ import * as S from "./menuMobile.styles";
 
 interface Props {
   menuIsVisible: boolean;
+  setMenuIsVisible: React.Dispatch<React.SetStateAction<boolean>>;
 }
 
-export default function MenuMobile({ menuIsVisible }: Props) {
+export default function MenuMobile({ menuIsVisible, setMenuIsVisible }: Props) {
   return (
     <S.Container isVisible={menuIsVisible}>
       <nav className="mobNav">
-        <a className="mobA" href="#home">
+        <a onClick={() => setMenuIsVisible(false)} className="mobA" href="#home">
           HOME
         </a>
-        <a className="mobA" href="#products">
+        <a onClick={() => setMenuIsVisible(false)} className="mobA" href="#products">
           PRODUCTS
         </a>
-        <a className="mobA" href="#service">
+        <a onClick={() => setMenuIsVisible(false)} className="mobA" href="#service">
           SERVICE
         </a>
-        <a className="mobA" href="#work">
+        <a onClick={() => setMenuIsVisible(false)} className="mobA" href="#work">
           WORK
         </a>
-        <a className="mobA" href="#pricing">
+        <a onClick={() => setMenuIsVisible(false)} className="mobA" href="#pricing">
           PRICING
         </a>
-        <a className="mobA" href="#contact">
+        <a onClick={() => setMenuIsVisible(false)} className="mobA" href="#contact">
           CONTACT
         </a>
       </nav>
