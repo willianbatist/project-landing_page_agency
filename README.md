@@ -14,11 +14,13 @@ Este repositório contem o **Projeto Landing Page Agency** que reúne o aprendiz
 
 #### Tecnologias utilizadas:
 
-  - React;
   - TypeScript;
+  - React;
+  - Styled-Components;
   - HTML;
   - CSS;
   - Eslint;
+  - Prettier;
 
 ---
 
