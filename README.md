@@ -4,7 +4,7 @@ Este repositório contem o **Projeto Landing Page Agency** que reúne o aprendiz
 
 # Projeto Landing Page Agency
 ### Resultado obtido:
-### Deploy do Projeto: [Projeto Landing Page Agency](https://main--mk-digital-agency.netlify.app/)
+### Deploy do Projeto: [Projeto Landing Page Agency](https://mk-digital-agency.netlify.app/)
 ![](./public/mkd-2022.gif)
 
 #### Habilidades que foram exigidas:
