@@ -86,6 +86,10 @@ span {
   text-shadow: none;
 }
 
+.divIcons {
+  cursor: pointer
+}
+
 ${({ isVisible }) => isVisible && css`
     background-color: white;
     .a {

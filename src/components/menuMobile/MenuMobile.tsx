@@ -1,24 +1,17 @@
-import { Container } from "./menuMobile.styles";
-import { IoClose } from "react-icons/io5";
+import * as S from "./menuMobile.styles";
 
 interface Props {
   menuIsVisible: boolean;
-  setMenuIsVisible: React.Dispatch<React.SetStateAction<boolean>>;
 }
 
-export function MenuMobile({ menuIsVisible, setMenuIsVisible }: Props) {
+export default function MenuMobile({ menuIsVisible }: Props) {
   return (
-    <Container isVisible={menuIsVisible}>
-      <IoClose
-        className="mobIoClose"
-        size={45}
-        onClick={() => setMenuIsVisible(false)}
-      />
+    <S.Container isVisible={menuIsVisible}>
       <nav className="mobNav">
-        <a className="mobA" href="/">
+        <a className="mobA" href="#home">
           HOME
         </a>
-        <a className="mobA" href="a">
+        <a className="mobA" href="#products">
           PRODUCTS
         </a>
         <a className="mobA" href="a">
@@ -34,6 +27,6 @@ export function MenuMobile({ menuIsVisible, setMenuIsVisible }: Props) {
           CONTACT
         </a>
       </nav>
-    </Container>
+    </S.Container>
   );
 }
