@@ -39,22 +39,22 @@ export default function Header() {
             </a>
           </li>
           <li>
-            <a className="a" href="a">
+            <a className="a" href="#service">
               SERVICE
             </a>
           </li>
           <li>
-            <a className="a" href="a">
+            <a className="a" href="#work">
               WORK
             </a>
           </li>
           <li>
-            <a className="a" href="a">
+            <a className="a" href="#pricing">
               PRICING
             </a>
           </li>
           <li>
-            <a className="a" href="a">
+            <a className="a" href="#contact">
               CONTACT
             </a>
           </li>
