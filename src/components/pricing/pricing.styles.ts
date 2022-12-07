@@ -14,6 +14,13 @@ export const Pricing = styled.div`
     height: 90%;
     align-items: center
   }
+
+  @media(max-width: 770px) {
+  height: 1000px;
+  .divApiPricing {
+    display: block;
+  }
+}
 `;
 
 export const PriceCard = styled.div`
@@ -79,4 +86,28 @@ export const PriceCard = styled.div`
     transition-property: all;
     transition-timing-function: cubic-bezier(.7,1,.7,1);
   }
+
+  @media(max-width: 770px) {
+  height: 80px;
+
+  h3 {
+    margin-top: -50px;
+    font-size: 18px;
+  }
+
+  p {
+    font-size: 11px;
+  }
+  ul {
+    margin-bottom: 25px;
+  }
+  ul li {
+    font-size: 9px;
+  }
+
+  a {
+    font-size: 9px;
+    padding: 9px 32px;
+  }
+}
 `;
