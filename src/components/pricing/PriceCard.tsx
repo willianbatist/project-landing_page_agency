@@ -12,9 +12,7 @@ interface Props {
 export default function PriceCard(Props: Props) {
   return (
     <S.PriceCard key={Props.id}>
-      <h3>
-        {`${Props.name} `}
-      </h3>
+      <h3>{`${Props.name} `}</h3>
       <p>{Props.description}</p>
       <ul>
         <li>{Props.item1}</li>

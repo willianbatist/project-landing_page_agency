@@ -41,8 +41,8 @@ export default function Home() {
         <div className="divMidPageText">
           <h2 className="h2MidPage">Entregamos resultados de verdade</h2>
           <p className="pMidPage">
-              Impulsione suas vendas com um serviço completo de gerenciamento online da sua marca. 
-              Tudo que você precisa na palma da mão.
+            Impulsione suas vendas com um serviço completo de gerenciamento
+            online da sua marca. Tudo que você precisa na palma da mão.
           </p>
         </div>
       </div>

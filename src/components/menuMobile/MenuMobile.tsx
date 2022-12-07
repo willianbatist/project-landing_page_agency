@@ -9,22 +9,46 @@ export default function MenuMobile({ menuIsVisible, setMenuIsVisible }: Props) {
   return (
     <S.Container isVisible={menuIsVisible}>
       <nav className="mobNav">
-        <a onClick={() => setMenuIsVisible(false)} className="mobA" href="#home">
+        <a
+          onClick={() => setMenuIsVisible(false)}
+          className="mobA"
+          href="#home"
+        >
           HOME
         </a>
-        <a onClick={() => setMenuIsVisible(false)} className="mobA" href="#products">
+        <a
+          onClick={() => setMenuIsVisible(false)}
+          className="mobA"
+          href="#products"
+        >
           PRODUCTS
         </a>
-        <a onClick={() => setMenuIsVisible(false)} className="mobA" href="#service">
+        <a
+          onClick={() => setMenuIsVisible(false)}
+          className="mobA"
+          href="#service"
+        >
           SERVICE
         </a>
-        <a onClick={() => setMenuIsVisible(false)} className="mobA" href="#work">
+        <a
+          onClick={() => setMenuIsVisible(false)}
+          className="mobA"
+          href="#work"
+        >
           WORK
         </a>
-        <a onClick={() => setMenuIsVisible(false)} className="mobA" href="#pricing">
+        <a
+          onClick={() => setMenuIsVisible(false)}
+          className="mobA"
+          href="#pricing"
+        >
           PRICING
         </a>
-        <a onClick={() => setMenuIsVisible(false)} className="mobA" href="#contact">
+        <a
+          onClick={() => setMenuIsVisible(false)}
+          className="mobA"
+          href="#contact"
+        >
           CONTACT
         </a>
       </nav>

@@ -8,7 +8,6 @@ import { IoClose } from "react-icons/io5";
 export default function Header() {
   const [menuIsVisible, setMenuIsVisible] = useState(false);
   const [headerIsVisible, setHeaderIsVisible] = useState(false);
-  
 
   useEffect(() => {
     function positionScroll() {
@@ -61,15 +60,15 @@ export default function Header() {
         </ul>
         <div className="divIcons">
           <IoClose
-          size={30}
-          className="mobIoClose"
-          onClick={() => setMenuIsVisible(false)}
-        />
-        <RiMenu3Fill
-          onClick={() => setMenuIsVisible(true)}
-          className="mobile"
-        />
-      </div>
+            size={30}
+            className="mobIoClose"
+            onClick={() => setMenuIsVisible(false)}
+          />
+          <RiMenu3Fill
+            onClick={() => setMenuIsVisible(true)}
+            className="mobile"
+          />
+        </div>
       </S.NavList>
       <MenuMobile
         menuIsVisible={menuIsVisible}
