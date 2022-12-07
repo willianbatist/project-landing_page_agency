@@ -5,7 +5,7 @@ Este repositório contem o **Projeto Landing Page Agency** que reúne o aprendiz
 # Projeto Landing Page Agency
 ### Resultado obtido:
 ### Deploy do Projeto: [Projeto Landing Page Agency](https://percentage-calculator-will.netlify.app/)
-![](./public/calc.gif)
+![](./public/mkd-2022.gif)
 
 #### Habilidades que foram exigidas:
 
