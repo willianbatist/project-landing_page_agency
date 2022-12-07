@@ -5,7 +5,7 @@ import { FaMapMarkerAlt } from "react-icons/fa";
 
 export default function Contact() {
   return (
-    <S.Contact>
+    <S.Contact id="contact">
       <hr />
       <h3>Entre em contato conosco</h3>
       <div className="divContact">

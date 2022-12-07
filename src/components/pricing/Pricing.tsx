@@ -4,7 +4,7 @@ import { apiPricing } from "../../services/services";
 
 export default function Pricing() {
   return (
-    <S.Pricing>
+    <S.Pricing id="pricing">
       {apiPricing.map((e) => (
         <PriceCard
           id={e.id}

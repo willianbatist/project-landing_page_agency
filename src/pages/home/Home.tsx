@@ -37,7 +37,7 @@ export default function Home() {
         </div>
       </S.Section>
       <Services />
-      <div className="divMidPage">
+      <div id="work" className="divMidPage">
         <div className="divMidPageText">
           <h2 className="h2MidPage">Displaying the Result</h2>
           <p className="pMidPage">
