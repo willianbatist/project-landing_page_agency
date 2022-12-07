@@ -10,7 +10,6 @@ export default function Pricing() {
           <PriceCard
             id={e.id}
             name={e.name}
-            price={e.price}
             description={e.description}
             item1={e.item1}
             item2={e.item2}

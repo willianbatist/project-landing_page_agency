@@ -3,7 +3,6 @@ import * as S from "./pricing.styles";
 interface Props {
   id: number;
   name: string;
-  price: string;
   description: string;
   item1: string;
   item2: string;
@@ -15,8 +14,6 @@ export default function PriceCard(Props: Props) {
     <S.PriceCard key={Props.id}>
       <h3>
         {`${Props.name} `}
-        <span> - $</span>
-        {` ${Props.price}`}
       </h3>
       <p>{Props.description}</p>
       <ul>

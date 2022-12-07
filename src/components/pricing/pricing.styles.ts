@@ -12,7 +12,7 @@ export const Pricing = styled.div`
     display: flex;
     max-width: 900px;
     height: 90%;
-    align-items: center
+    align-items: center;
   }
 
   @media(max-width: 770px) {
@@ -36,12 +36,6 @@ export const PriceCard = styled.div`
     color: #515769;
     line-height: 1.4;
     margin: 0 0 15px;
-  }
-
-  h3 span {
-    font-size: 14px;
-    font-weight: 400;
-    color: #bfc1c7;
   }
 
   p {
