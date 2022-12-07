@@ -39,12 +39,10 @@ export default function Home() {
       <Services />
       <div id="work" className="divMidPage">
         <div className="divMidPageText">
-          <h2 className="h2MidPage">Displaying the Result</h2>
+          <h2 className="h2MidPage">Entregamos resultados de verdade</h2>
           <p className="pMidPage">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo.
+              Impulsione suas vendas com um serviço completo de gerenciamento online da sua marca. 
+              Tudo que você precisa na palma da mão.
           </p>
         </div>
       </div>
