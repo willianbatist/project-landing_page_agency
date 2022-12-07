@@ -26,11 +26,21 @@ Este repositório contem o **Projeto Landing Page Agency** que reúne o aprendiz
 
 ## Apresentação do Projeto
 
-O Projeto é uma Landing Page de uma Agencia de publicidade, onde é possivel ver os produtos, servicos oferecidos e o contato da empresa.
+O Projeto é uma Landing Page de uma Agencia de publicidade, onde é possivel ver os produtos, serviços oferecidos e o contato da empresa.
 
 
 ### Como da Start na Aplicação
 
-Como demonstrado no gif de exemplo, no campo insira valor, você coloca o valor base, mais abaixo nos botões numérico, você escolhe qual porcentagem queira usar ou digita no input ao lado dos botões, por fim basta aberta aumentar ou diminui para saber qual será o novo valor.
- 
+Primeiro clone o projeto na sua maquina. No terminal digite:
+
+    git clone git@github.com:willianbatist/project-landing_page_agency.git
+    
+Ainda no terminal, entre na raiz do projeto e digite:
+
+    npm instal
+
+E depois
+
+    npm start
+
 ---
