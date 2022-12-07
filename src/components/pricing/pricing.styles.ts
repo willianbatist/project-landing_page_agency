@@ -17,7 +17,6 @@ export const Pricing = styled.div`
 `;
 
 export const PriceCard = styled.div`
-  border: 2px solid black;
   background-color: white;
   max-width: 700px;
   height: 50%;
