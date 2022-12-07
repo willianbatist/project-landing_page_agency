@@ -2,6 +2,7 @@ import styled, { css } from "styled-components";
 
 interface Props {
   isVisible: boolean;
+  menuVisible: boolean;
 }
 
 export const HeaderMenu = styled.header<Props>`
@@ -36,6 +37,13 @@ export const HeaderMenu = styled.header<Props>`
     color: #515769;
     margin-right: 1em;
   }
+}
+
+.mobIoClose {
+  font-size: 30px;
+  font-weight: 800;
+  color: #515769;
+  margin-right: 1em;
 }
 
 .logo {
@@ -86,6 +94,18 @@ ${({ isVisible }) => isVisible && css`
     }
     .logo {
       color: #515769;
+    }
+  `}
+
+  ${({ menuVisible }) => menuVisible && css`
+    .mobile {
+      display: none !important;
+    }
+  `}
+
+  ${({ menuVisible }) => !menuVisible && css`
+    .mobIoClose {
+      display: none !important;
     }
   `}
 `;

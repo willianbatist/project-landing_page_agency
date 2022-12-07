@@ -1,11 +1,14 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
 import { useEffect, useState } from "react";
 import * as S from "./header.style";
-import { MenuMobile } from "../menuMobile/MenuMobile";
+// import { MenuMobile } from "../menuMobile/MenuMobile";
 import { RiMenu3Fill } from "react-icons/ri";
+import { IoClose } from "react-icons/io5";
 
 export default function Header() {
   const [menuIsVisible, setMenuIsVisible] = useState(false);
   const [headerIsVisible, setHeaderIsVisible] = useState(false);
+  
 
   useEffect(() => {
     function positionScroll() {
@@ -19,11 +22,11 @@ export default function Header() {
   }, []);
 
   return (
-    <S.HeaderMenu isVisible={headerIsVisible}>
-      <MenuMobile
+    <S.HeaderMenu isVisible={headerIsVisible} menuVisible={menuIsVisible}>
+      {/* <MenuMobile
         menuIsVisible={menuIsVisible}
         setMenuIsVisible={setMenuIsVisible}
-      />
+      /> */}
       <S.NavList>
         <p className="logo">
           <span>mk</span>digital
@@ -60,10 +63,17 @@ export default function Header() {
             </a>
           </li>
         </ul>
+        <a href="#">
+          <IoClose
+          size={30}
+          className="mobIoClose"
+          onClick={() => setMenuIsVisible(false)}
+        />
         <RiMenu3Fill
           onClick={() => setMenuIsVisible(true)}
           className="mobile"
         />
+        </a>
       </S.NavList>
     </S.HeaderMenu>
   );
