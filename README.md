@@ -26,10 +26,10 @@ Este repositório contem o **Projeto Landing Page Agency** que reúne o aprendiz
 
 ## Apresentação do Projeto
 
-O Projeto é uma aplicação web, onde o usuário poderá inserir um valor, escolher a porcentagem e ver quanto aumenta ou diminui, assim o mesmo vai ter uma calculadora simples de porcentagem para os momentos que queira saber quanto vai receber de desconto ou de aumento.
+O Projeto é uma Landing Page de uma Agencia de publicidade, onde é possivel ver os produtos, servicos oferecidos e o contato da empresa.
 
 
-### Uso
+### Como da Start na Aplicação
 
 Como demonstrado no gif de exemplo, no campo insira valor, você coloca o valor base, mais abaixo nos botões numérico, você escolhe qual porcentagem queira usar ou digita no input ao lado dos botões, por fim basta aberta aumentar ou diminui para saber qual será o novo valor.
  
