@@ -6,11 +6,9 @@ export default function Products() {
   return (
     <S.Products id="products">
       <div className="divTextProducts">
-        <h2 className="h2SProducts">Latest Products</h2>
+        <h2 className="h2SProducts">Serviços mais procurados</h2>
         <p className="pSProducts">
-          Lorem ipsum dolor sit amet consectetur adipiscing elit sed tempor
-          incididunt ut laboret dolore magna aliqua enim minim veniam
-          exercitation
+          Conheça os principais serviços para começar a engajar o público no seu conteúdo.
         </p>
       </div>
       <div className="divProductsCard">
