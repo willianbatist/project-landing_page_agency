@@ -73,6 +73,7 @@ export default function Header() {
       </S.NavList>
       <MenuMobile
         menuIsVisible={menuIsVisible}
+        setMenuIsVisible={setMenuIsVisible}
       />
     </S.HeaderMenu>
   );
