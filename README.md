@@ -2,7 +2,7 @@
 
 Este repositório contem o **Projeto Landing Page Agency** que reúne o aprendizado desenvolvido por _[Willian Alves Batista](https://www.linkedin.com/in/willian-alves-batista-60aa6a180/)_, todos os textos e descrições foi escrito e revisado por _[Dany Toniato](https://www.linkedin.com/in/danyelle-toniato-bb0386149/)_.
 
-# Projeto Landing Page Agenc
+# Projeto Landing Page Agency
 ### Resultado obtido:
 ### Deploy do Projeto: [Projeto Landing Page Agency](https://mk-digital-agency.netlify.app/)
 ![](./public/mkd-2022.gif)
