@@ -9,7 +9,7 @@ Este repositório contem o **Projeto Landing Page Agency** que reúne o aprendiz
 
 #### Habilidades que foram exigidas:
 
-  - Logica de programação
+  - Logica de programação;
   - Clean Code;
 
 #### Tecnologias utilizadas:
