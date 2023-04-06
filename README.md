@@ -12,7 +12,7 @@ Este repositório contem o **Projeto Landing Page Agency** que reúne o aprendiz
   - Logica de programação;
   - Clean Code;
 
-####
+#### Tecnologias utilizadas:
 
   - TypeScript;
   - React;
